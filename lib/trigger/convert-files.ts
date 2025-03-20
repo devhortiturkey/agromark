@@ -93,12 +93,12 @@ export const convertFilesToPdfTask = task({
 
     // Make the conversion request
     const conversionResponse = await retry.fetch(
-      `${process.env.NEXT_PRIVATE_CONVERSION_BASE_URL}/forms/libreoffice/convert`,
+      `${process.env.TRIGGER_API_URL}/forms/libreoffice/convert`,
       {
         method: "POST",
         body: formData,
         headers: {
-          Authorization: `Basic ${process.env.NEXT_PRIVATE_INTERNAL_AUTH_TOKEN}`,
+          Authorization: `Basic ${process.env.TRIGGER_SECRET_KEY}`,
         },
         retry: {
           byStatus: {
