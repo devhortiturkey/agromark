@@ -156,11 +156,11 @@ export default function Nav({
                 />
               ) : (
                 <Link
-                  href={`https://www.agrowy.com?utm_campaign=navbar&utm_medium=navbar&utm_source=papermark-${linkId}`}
+                  href={`https://www.agrowy.com`}
                   target="_blank"
                   className="text-2xl font-bold tracking-tighter text-white"
                 >
-                  Papermark
+                  Agrowy
                 </Link>
               )}
             </div>
