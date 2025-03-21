@@ -278,11 +278,8 @@ function prepareRemotePatterns() {
     { protocol: "https", hostname: "www.agrowy.com" },
     { protocol: "https", hostname: "app.agrowy.com" },
     { protocol: "https", hostname: "www.agrowy.com" },
-    { protocol: "https", hostname: "app.agrowy.com" },
-    // useragent img
-    { protocol: "https", hostname: "faisalman.github.io" },
-    // special document pages
-    { protocol: "https", hostname: "d36r2enbzam0iu.cloudfront.net" },
+    { protocol: "https", hostname: "invest.agrowy.com" },
+    { protocol: "https", hostname: "investor.agrowy.com" },
   ];
 
   if (process.env.NEXT_PRIVATE_UPLOAD_DISTRIBUTION_HOST) {
