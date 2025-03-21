@@ -27,19 +27,129 @@ const nextConfig = {
         ],
       },
       {
-        source: "/view/cm2xiaxzo000d147xszm9q72o",
-        destination: "/view/cm34cqqqx000212oekj9upn8o",
-        permanent: false,
-      },
-      {
-        source: "/view/cm5morpmg000btdwrlahi7f2y",
-        destination: "/view/cm68iygxd0005wuf5svbr6c1x",
-        permanent: false,
-      },
-      {
         source: "/settings",
         destination: "/settings/general",
         permanent: false,
+      },
+      {
+        source: "/sina-afra",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true, // Kalıcı yönlendirme (308 HTTP status code)
+      },
+      {
+        source: "/mert-firat",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/simyavc",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/turgutkonukoglu",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/e2vc",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/212vc",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/hasanaslanoba",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/melihodemis",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/nevzataydin",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/fatihisbecer",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/evrenucok",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/demetmutlu",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/fethisabancikamisli",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/bulenttekmen",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/koraygultekinbahar",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/muratozyegin",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/mahmut-unlu",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/firatisbecer",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/ihsanelgin",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/scalexventures",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/alikarabey",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/ahmetkayhan",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/erdemyurdanur",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
+      },
+      {
+        source: "/barbarosozbugutu",
+        destination: "https://investor.agrowy.com/view/cm8i5qwgv0001ks0334a0qzk6",
+        permanent: true,
       },
     ];
   },
